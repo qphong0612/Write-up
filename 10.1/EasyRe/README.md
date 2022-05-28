@@ -83,5 +83,5 @@ public class EasyRe extends ActionBarActivity implements View.OnClickListener {
 }
 ```
 
-Flag contain in res/raw/flag.txt
+Flag is contain in res/raw/flag.txt
 > 0ctf{Too_Simple_Sometimes_Naive!!!}
