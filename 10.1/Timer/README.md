@@ -165,8 +165,8 @@ Change value
     const v3, 1616384
 And 
     
-    if-eqz v0, :cond_1
-    if-ltz v0, :cond_1
+    if-gtz v0, :cond_0
+    if-ltz v0, :cond_0
 
 
 
