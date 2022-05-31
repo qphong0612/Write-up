@@ -143,10 +143,33 @@ And
     if-eqz v0, :cond_1
     if-ltz v0, :cond_1
 
-Build 
-    
-    apktool b -f -d aplication
-    
 Decompile 
     
     apktool d Timer.apk
+    
+Build 
+    
+    apktool b -f -d aplication
+
+Create key 
+              
+    keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+
+Then sign APK using
+
+    jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore my_application.apk alias_name
+
+Change value 
+
+    iget v3, v3, Lnet/bluelotus/tomorrow/easyandroid/MainActivity;->k:I
+    const v3, 1616384
+And 
+    
+    if-eqz v0, :cond_1
+    if-ltz v0, :cond_1
+
+
+
+
+
+
