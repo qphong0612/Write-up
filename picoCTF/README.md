@@ -4,10 +4,24 @@
     Challenge
     |
     |___ Web Exploitation
+    |    |
+    |    |___ ...
+    |    |
+    |    |___ ...
+    |    |
+    |    |___ ...
     │  
     |___ Cryptography
+    |    |    
+    |    |___ ...
+    |    |
+    |    |___ ...
     |
     |___ Reverse Engineering
+    |    |
+    |    |___ ...
+    |    |
+    |    |___ ...
     |
     |___ Forensics
     |    |
@@ -17,3 +31,5 @@
     |
     |
     |___ Binary Exploitation
+         |
+         |___ ...
