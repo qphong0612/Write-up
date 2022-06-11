@@ -18,7 +18,7 @@
     |
     |___ Forensics
     |    |___ Wireshark twoo twooo two twoo...
-    |    |___ ... 
+    |    |___ information
     |
     |___ Binary Exploitation
          |
