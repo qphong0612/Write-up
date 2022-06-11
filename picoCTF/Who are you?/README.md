@@ -19,7 +19,7 @@ It ain't much, but it's an RFC https://tools.ietf.org/html/rfc2616
       
 [*] - Step 4: 
       
-      DNT: 1 #DNThttps://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/DNT
+      DNT: 1 #The user prefers not to be tracked on the target site.
 [*] - Step 5:
     
       X-Forwarded-For: 103.177.248.12 #Sweden ip addr
