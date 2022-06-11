@@ -15,7 +15,7 @@ It ain't much, but it's an RFC https://tools.ietf.org/html/rfc2616
       Referer: http://mercury.picoctf.net:1270/
 [*] - Step 3:
       
-      Date: Wed, 21 Oct 2015 07:28:00 GMT
+      Date: Wed, 21 Oct 2018 07:28:00 GMT
       
 [*] - Step 4: 
       
