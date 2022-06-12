@@ -21,5 +21,4 @@
     |    |___ information
     |
     |___ Binary Exploitation
-         |
          |___ Stonks
