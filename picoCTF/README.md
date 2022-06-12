@@ -22,4 +22,4 @@
     |
     |___ Binary Exploitation
          |
-         |___ ...
+         |___ Stonks
