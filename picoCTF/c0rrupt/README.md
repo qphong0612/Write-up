@@ -42,7 +42,8 @@ Lets start with the PNG header
 
 ## [*] - Step 3
       
-      pngcheck mystery
+      pngcheck mystery![mystery](https://user-images.githubusercontent.com/83420725/174083098-da864e71-7abe-4dff-a238-510eb02ff59c.png)
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/83420725/174035622-5e413827-c72c-4fbc-98ab-d3ddda53848e.png">
   Correcting the IDAT chunk 
@@ -55,4 +56,11 @@ Lets start with the PNG header
 </div>
 
 
+```
+89504E47 0D0A1A0A 0000000D 49484452 0000066A 00000447 08020000 007C8BAB 78000000 01735247 4200AECE 1CE90000 00046741 4D410000 B18F0BFC 61050000 00097048 5973AA00 16250000 16250138 D82C8200 00FFA549 44415478 5EECBD3F 8E64CD71 BD2D8B20 20809041 830208D0 F9ED40A0 F36E407B 90238F1E D7208B3E B7C10D70 0374B503 AE416BF8 BEA8FBDC 3E7D2A22 336FDE5B 55DD3D3D
+```
+<div align="center">
+<img src="https://user-images.githubusercontent.com/83420725/174083446-c7161566-da9b-4db6-84fa-aa1e58981d2b.png">
+</div>
 
+> picoCTF{c0rrupt10n_1847995}
