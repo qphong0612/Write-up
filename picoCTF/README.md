@@ -6,6 +6,7 @@
     |___ Web Exploitation
     |    |___ GET aHEAD
     |    |___ Who are you?
+    |    |___ Cookies
     |    |___ ...
     │  
     |___ Cryptography
