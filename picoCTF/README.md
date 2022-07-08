@@ -26,6 +26,7 @@
     |
     |___ Binary Exploitation
     |    |___ Stonks
+    |    |___ Cache Me Outside
     |
     |___ General skill
          |___ Obedient Cat
