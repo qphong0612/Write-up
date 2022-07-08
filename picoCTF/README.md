@@ -25,4 +25,8 @@
     |    |___ c0rrupt
     |
     |___ Binary Exploitation
-         |___ Stonks
+    |    |___ Stonks
+    |
+    |___ General skill
+         |___ Obedient Cat
+  
