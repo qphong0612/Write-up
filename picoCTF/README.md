@@ -4,11 +4,11 @@ ___
 
 <h3 align="center"> Web Exploitation </h3> 
 
-` - `&emsp; [GET aHEAD](https://github.com/qphong0612/Write-up/tree/main/picoCTF/GET%20aHEAD) <br>
-` - `&emsp; [Who are you?](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Who%20are%20you%3F) <br>
-` - `&emsp; [Cookies](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Cookies) <br>
-` - `&emsp; [where are the robots](https://github.com/qphong0612/Write-up/tree/main/picoCTF/where%20are%20the%20robots) <br>
-` - `&emsp; [Insp3ct0r](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Insp3ct0r) <br>
+` - `&emsp; [GET aHEAD](https://github.com/qphong0612/Write-up/tree/main/picoCTF/GET%20aHEAD) &emsp;
+` - `&emsp; [Who are you?](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Who%20are%20you%3F) &emsp;
+` - `&emsp; [Cookies](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Cookies) &emsp;
+` - `&emsp; [where are the robots](https://github.com/qphong0612/Write-up/tree/main/picoCTF/where%20are%20the%20robots) &emsp;
+` - `&emsp; [Insp3ct0r](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Insp3ct0r) &emsp;
 
 
 ___ 
@@ -24,22 +24,22 @@ ___
 ___ 
 <h3 align='center'> Forensics </h3>
 
-` - `&emsp; [Wireshark twoo twooo two twoo...]() <br>
-` - `&emsp; [information]() <br>
-` - `&emsp; [c0rrupt]() <br>
+` - `&emsp; [Wireshark twoo twooo two twoo...]() &emsp;
+` - `&emsp; [information]() &emsp;
+` - `&emsp; [c0rrupt]() &emsp;
 
 ___ 
 <h3 align='center'> Binary Exploitation </h3>
 
-` - `&emsp; [Stonks]() <br>
-` - `&emsp; [Cache Me Outside]() <br>
-
+` - `&emsp; [Stonks]() &emsp;
+` - `&emsp; [Cache Me Outside]() &emsp;
+` - `&emsp; [Here's a LIBC]() &emsp;
 ___ 
 <h3 align='center'> General skill </h3>
 
-` - `&emsp; [Obedient Cat](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Obedient%20Cat) <br>
-` - `&emsp; [Python Wrangling](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Python%20Wrangling) <br>
-` - `&emsp; [Wave a flag]() <br>
-` - `&emsp; [Nice netcat](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Nice%20netcat) <br>
-` - `&emsp; [Transformation]() <br>
+` - `&emsp; [Obedient Cat](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Obedient%20Cat) &emsp;
+` - `&emsp; [Python Wrangling](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Python%20Wrangling) &emsp;
+` - `&emsp; [Wave a flag]() &emsp;
+` - `&emsp; [Nice netcat](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Nice%20netcat) &emsp;
+` - `&emsp; [Transformation]() &emsp;
 
