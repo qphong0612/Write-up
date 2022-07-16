@@ -14,6 +14,7 @@
 ` - `&emsp; [Cookies](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Cookies) &emsp;
 ` - `&emsp; [where are the robots](https://github.com/qphong0612/Write-up/tree/main/picoCTF/where%20are%20the%20robots) &emsp;
 ` - `&emsp; [Insp3ct0r](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Insp3ct0r) &emsp;
+` - `&emsp; [Scavenger Hunt](https://github.com/qphong0612/Write-up/tree/main/picoCTF/Scavenger%20Hunt) &emsp;
 
 
 ___ 
